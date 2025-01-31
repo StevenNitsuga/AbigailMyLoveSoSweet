@@ -1,0 +1,66 @@
+/* styles.css */
+
+/* Page background and general styling */
+body {
+  background-color: #ffdab9; /* Cute peach background */
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 80vh;
+}
+
+/* Cute text style for invitation */
+.invitation-text {
+  color: #ffb3c6;
+  font-size: 3rem;
+  font-family: 'Pacifico', cursive;
+}
+
+/* Button container and styles */
+.button-container {
+  margin-top: 20px;
+}
+
+.button-box {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.response-button {
+  background-color: transparent;
+  color: #ff6188;
+  border: 2px solid #ff6188;
+  padding: 12px 18px;
+  font-size: 1.4rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.response-button:hover {
+  background-color: #ff6188;
+  color: white;
+}
+
+/* Placeholder for the GIF */
+.gif-container {
+  margin-top: 30px;
+}
+
+.gif {
+  max-width: 80%;
+  border-radius: 20px;
+}
